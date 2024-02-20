@@ -205,6 +205,9 @@ exec_always ~/.config/polybar/launch.sh
 # Start Tabs on Login
 exec firefox invidious.drgns.space discord.com/login
 
+# Start picom compositor form Terminal to be Transparent
+exec_always picom
+
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
